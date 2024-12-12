@@ -1,6 +1,6 @@
 {
   "name": "@cicada-ag/meteor-admin-sdk",
-  "version": "5.6.0",
+  "version": "5.6.1",
   "description": "The Meteor SDK for the Cicada Administration.",
   "keywords": [
     "iframe",
