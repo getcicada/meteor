@@ -1,6 +1,6 @@
 {
   "name": "@cicada-ag/meteor-component-library",
-  "version": "3.14.0",
+  "version": "4.0.0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:getcicada/meteor.git"
