@@ -12,7 +12,7 @@ export const TestInputValue: MtEmailFieldStory = {
   name: "Should keep input value",
   play: async ({ canvasElement, args }) => {
     const canvas = within(canvasElement);
-    const TEST_EMAIL = "admin@shopware.com";
+    const TEST_EMAIL = "admin@cicada.com";
 
     await userEvent.type(canvas.getByRole("textbox"), TEST_EMAIL);
     await userEvent.click(canvas.getByText("hidden"));

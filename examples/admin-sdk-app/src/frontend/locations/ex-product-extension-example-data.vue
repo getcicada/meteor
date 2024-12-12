@@ -47,8 +47,8 @@
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
-import { notification, data } from "@shopware-ag/meteor-admin-sdk";
-import { SwButton, SwTextField } from '@shopware-ag/meteor-component-library';
+import { notification, data } from "@cicada-ag/meteor-admin-sdk";
+import { SwButton, SwTextField } from '@cicada-ag/meteor-component-library';
 
 const product = ref<EntitySchema.Entity<'product'>|undefined|null>(undefined);
 const manufacturer = ref<EntitySchema.Entity<'product_manufacturer'>|undefined|null>(undefined);

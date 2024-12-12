@@ -39,7 +39,7 @@ ui.menu.addMenuItem({
 #### Example
 ![Menu item example](./assets/add-menu-item-example.png)
 ```ts
-import { location, ui } from '@shopware-ag/meteor-admin-sdk';
+import { location, ui } from '@cicada-ag/meteor-admin-sdk';
 
 // General commands
 if (location.is(sw.location.MAIN_HIDDEN)) {

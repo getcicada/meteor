@@ -194,7 +194,7 @@ export const LinkButton: MtButtonStory = {
   name: "Redirect to the link",
   args: {
     default: "Go to Shopware",
-    link: "https://www.shopware.com",
+    link: "https://www.cicada.com",
   },
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement);

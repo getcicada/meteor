@@ -1977,7 +1977,7 @@ $font-family-default-feature-settings:
   "cv11" on;
 
 $color-card-headline: #1c1c1c;
-$color-shopware-brand-vivacious-500: #0f76de;
+$color-cicada-brand-vivacious-500: #0f76de;
 
 $scrollShadowSize: 16px;
 $scrollShadowColor: rgba(120, 120, 120, 0.1);
@@ -2443,12 +2443,12 @@ $tableCellPadding: $tableCellPaddingTop $tableCellPaddingRight $tableCellPadding
   .mt-data-table__table-head-dropzone-before {
     left: 0;
     box-shadow: inset $dropzone-highlight-width 0px $dropzone-highlight-width
-      $dropzone-highlight-negative-width $color-shopware-brand-900;
+      $dropzone-highlight-negative-width $color-cicada-brand-900;
   }
   .mt-data-table__table-head-dropzone-after {
     right: 0;
     box-shadow: inset $dropzone-highlight-negative-width 0px $dropzone-highlight-width
-      $dropzone-highlight-negative-width $color-shopware-brand-900;
+      $dropzone-highlight-negative-width $color-cicada-brand-900;
   }
 
   /**
@@ -2509,7 +2509,7 @@ $tableCellPadding: $tableCellPaddingTop $tableCellPaddingRight $tableCellPadding
     a {
       position: relative;
       top: 1px;
-      color: $color-shopware-brand-vivacious-500;
+      color: $color-cicada-brand-vivacious-500;
       text-decoration: none;
       font-weight: var(--font-weight-semibold);
       font-size: var(--font-size-xs);
@@ -2687,7 +2687,7 @@ table.is--dragging-inside {
   left: 0;
   width: 100%;
   height: 8px;
-  background-color: $color-shopware-brand-900;
+  background-color: $color-cicada-brand-900;
   border-radius: var(--border-radius-xs) var(--border-radius-xs) 0 0;
   transition: transform 0.2s ease;
   transform-origin: top center;
@@ -2701,7 +2701,7 @@ table.is--dragging-inside {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $color-shopware-brand-900;
+  background-color: $color-cicada-brand-900;
   border-radius: 0 0 var(--border-radius-xs) var(--border-radius-xs);
 
   #meteor-icon-kit__regular-grip-horizontal-s {

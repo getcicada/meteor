@@ -6,7 +6,7 @@
       "outputs": ["dist/**", "es/**", "umd/**", ".docusaurus/**", "build/**"],
       "env": ["API_KEY"]
     },
-    "@shopware-ag/meteor-component-library#build:storybook": {
+    "@cicada-ag/meteor-component-library#build:storybook": {
       "outputs": ["storybook-static/**"],
       "env": ["SHOW_INTERACTIONS"]
     },
@@ -42,7 +42,7 @@
       "outputs": [],
       "dependsOn": ["^build"]
     },
-    "@shopware-ag/meteor-component-library#test:storybook": {
+    "@cicada-ag/meteor-component-library#test:storybook": {
       "outputs": [],
       "dependsOn": ["^build"]
     }

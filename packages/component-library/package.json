@@ -1,9 +1,9 @@
 {
-  "name": "@shopware-ag/meteor-component-library",
+  "name": "@cicada-ag/meteor-component-library",
   "version": "3.14.0",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shopware/meteor.git"
+    "url": "git+ssh://git@github.com:getcicada/meteor.git"
   },
   "author": "shopware AG",
   "main": "dist/common/index.js",
@@ -41,8 +41,8 @@
   "dependencies": {
     "@floating-ui/dom": "^1.4.3",
     "@floating-ui/vue": "^1.1.5",
-    "@shopware-ag/meteor-icon-kit": "workspace:*",
-    "@shopware-ag/meteor-tokens": "workspace:*",
+    "@cicada-ag/meteor-icon-kit": "workspace:*",
+    "@cicada-ag/meteor-tokens": "workspace:*",
     "@storybook/addon-a11y": "^8.4.5",
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/vue": "^8.1.0",
@@ -61,7 +61,7 @@
   "devDependencies": {
     "@csstools/stylelint-formatter-github": "^1.0.0",
     "@rushstack/eslint-patch": "^1.3.3",
-    "@shopware-ag/stylelint-plugin-meteor": "workspace:*",
+    "@cicada-ag/stylelint-plugin-meteor": "workspace:*",
     "@storybook/addon-essentials": "^8.4.5",
     "@storybook/addon-interactions": "^8.4.5",
     "@storybook/addon-links": "^8.4.5",

@@ -60,7 +60,7 @@ $mt-color-badge-color-fallback: $color-gray-300;
 $mt-color-badge-color-warning: $color-pumpkin-spice-500;
 $mt-color-badge-color-critical: $color-crimson-500;
 $mt-color-badge-color-positive: $color-emerald-500;
-$mt-color-badge-color-info: $color-shopware-brand-500;
+$mt-color-badge-color-info: $color-cicada-brand-500;
 
 .mt-color-badge {
   display: inline-block;
@@ -114,8 +114,8 @@ $mt-color-badge-color-info: $color-shopware-brand-500;
     }
 
     &.is--info {
-      background-color: $color-shopware-brand-50;
-      color: $color-shopware-brand-900;
+      background-color: $color-cicada-brand-50;
+      color: $color-cicada-brand-900;
     }
   }
 }

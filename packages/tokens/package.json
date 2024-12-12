@@ -1,13 +1,12 @@
 {
-  "name": "@shopware-ag/meteor-tokens",
+  "name": "@cicada-ag/meteor-tokens",
   "version": "0.3.0",
   "description": "Design Tokens for the Meteor Design System used at shopware",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shopware/meteor.git"
+    "url": "git+ssh://git@github.com:getcicada/meteor.git"
   },
   "license": "MIT",
-  "author": "shopware AG",
   "type": "module",
   "exports": {
     "./primitives.css": "./deliverables/foundation/primitives.css",

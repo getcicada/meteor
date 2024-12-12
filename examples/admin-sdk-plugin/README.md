@@ -20,6 +20,6 @@ Now you should see the plugin installed when opening the Shopware Admin and look
 
 1. Create a `.env` file in `<meteorRoot>/examples/admin-sdk-plugin/tests/acceptance`
 2. Specify your Shopware instance app url: `APP_URL=https://dev.local/`
-3. Run the tests: `cd <meteorRoot> && pnpm --filter @shopware-ag/meteor-admin-sdk-example-plugin run test:ats`
+3. Run the tests: `cd <meteorRoot> && pnpm --filter @cicada-ag/meteor-admin-sdk-example-plugin run test:ats`
 
 

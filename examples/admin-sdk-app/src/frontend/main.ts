@@ -1,4 +1,4 @@
-import { location } from '@shopware-ag/meteor-admin-sdk';
+import { location } from '@cicada-ag/meteor-admin-sdk';
 
 if (location.is(location.MAIN_HIDDEN)) {
     /**

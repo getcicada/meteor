@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { onBeforeMount, ref, computed } from 'vue';
-import { data } from '@shopware-ag/meteor-admin-sdk';
+import { data } from '@cicada-ag/meteor-admin-sdk';
 import EX_DAILYMOTION_CONSTANTS from './ex-dailymotion-constants';
 
 const dailyUrlValue = ref('');

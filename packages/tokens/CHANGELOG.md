@@ -1,4 +1,4 @@
-# @shopware-ag/meteor-tokens
+# @cicada-ag/meteor-tokens
 
 ## 0.3.0
 

@@ -2,7 +2,7 @@
 import defineConfig from "stylelint-define-config";
 
 export default defineConfig({
-  plugins: ["@shopware-ag/stylelint-plugin-meteor"],
+  plugins: ["@cicada-ag/stylelint-plugin-meteor"],
   rules: {
     "meteor/prefer-sizing-token": [true, { severity: "warning" }],
     "meteor/prefer-background-token": [true, { severity: "warning" }],

@@ -61,7 +61,7 @@ watch(
     const iconName = newName.split("-").slice(1).join("-");
 
     import(
-      `./../../../../node_modules/@shopware-ag/meteor-icon-kit/icons/${variant}/${iconName}.svg`
+      `./../../../../node_modules/@cicada-ag/meteor-icon-kit/icons/${variant}/${iconName}.svg`
     ).then((data) => {
       if (data.default) {
         iconSvgData.value = data.default;
@@ -77,7 +77,7 @@ watch(
 </script>
 
 <style lang="scss">
-@import "node_modules/@shopware-ag/meteor-icon-kit/icons/meteor-icon-kit.scss";
+@import "node_modules/@cicada-ag/meteor-icon-kit/icons/meteor-icon-kit.scss";
 
 .mt-icon {
   display: inline-block;

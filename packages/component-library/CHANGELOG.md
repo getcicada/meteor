@@ -63,7 +63,7 @@
 - ebe7a33: Use semantic border radius token for overlays
 - bebea2e: Use button border radius token for buttons and segmented control
 - Updated dependencies [e644cef]
-  - @shopware-ag/meteor-tokens@0.3.0
+  - @cicada-ag/meteor-tokens@0.3.0
 
 ## 3.11.0
 
@@ -120,7 +120,7 @@
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
 - Updated dependencies [0a0ac80]
-  - @shopware-ag/meteor-tokens@0.2.0
+  - @cicada-ag/meteor-tokens@0.2.0
 
 ## 3.8.0
 
@@ -208,7 +208,7 @@
 
 - 7ff2788: Remove unnecessary left border in data table
 - Updated dependencies [8443590]
-  - @shopware-ag/meteor-tokens@0.1.0
+  - @cicada-ag/meteor-tokens@0.1.0
 
 ## 3.3.0
 

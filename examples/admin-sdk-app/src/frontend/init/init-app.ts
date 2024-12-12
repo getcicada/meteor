@@ -1,4 +1,4 @@
-import { notification, ui, cms } from '@shopware-ag/meteor-admin-sdk';
+import { notification, ui, cms } from '@cicada-ag/meteor-admin-sdk';
 import EX_DAILYMOTION_CONSTANTS from '../cms/ex-dailymotion/ex-dailymotion-constants';
 
 /**

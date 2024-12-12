@@ -1,5 +1,5 @@
 {
-  "name": "@shopware-ag/stylelint-plugin-meteor",
+  "name": "@cicada-ag/stylelint-plugin-meteor",
   "version": "0.0.0",
   "main": "./dist/commonjs/index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "description": "The stylelint plugin for the Meteor Design System",
   "peerDependencies": {
-    "@shopware-ag/meteor-tokens": "workspace:*",
+    "@cicada-ag/meteor-tokens": "workspace:*",
     "stylelint": "^16.10.0"
   },
   "devDependencies": {

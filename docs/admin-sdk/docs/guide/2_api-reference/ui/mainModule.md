@@ -23,7 +23,7 @@ ui.mainModule.addMainModule({
 #### Example
 ![Main module example](./assets/add-main-module-example.png)
 ```ts
-import { location, ui } from '@shopware-ag/meteor-admin-sdk';
+import { location, ui } from '@cicada-ag/meteor-admin-sdk';
 
 // General commands
 if (location.is(location.MAIN_HIDDEN)) {

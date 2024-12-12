@@ -7,7 +7,7 @@ There are options that exist for every message type in the SDK. You'll find a li
 
 ## Example privileges
 ```typescript
-import * as sw from '@shopware-ag/meteor-admin-sdk';
+import * as sw from '@cicada-ag/meteor-admin-sdk';
 
 // This notification will only be displayed if the user has `product:read` permissions.
 sw.notification.dispatch({

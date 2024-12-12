@@ -250,8 +250,8 @@
 </template>
 
 <script setup lang="ts">
-import "@shopware-ag/meteor-component-library/styles.css";
-import "@shopware-ag/meteor-component-library/font.css";
+import "@cicada-ag/meteor-component-library/styles.css";
+import "@cicada-ag/meteor-component-library/font.css";
 import {
   SwCard,
   SwButton,
@@ -263,7 +263,7 @@ import {
   MtModalTrigger,
   MtModalAction,
   MtText,
-} from "@shopware-ag/meteor-component-library";
+} from "@cicada-ag/meteor-component-library";
 import SwBlockStack from "./components/sw-block-stack.vue";
 
 const showBanner = ref();

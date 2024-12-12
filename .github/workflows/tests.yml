@@ -114,7 +114,7 @@ jobs:
         run: pnpm install --frozen-lockfile --prefer-offline
 
       - name: madge
-        run: pnpm --filter @shopware-ag/meteor-admin-sdk run circular-dependencies
+        run: pnpm --filter @cicada-ag/meteor-admin-sdk run circular-dependencies
 
   playwright-run:
     name: Playwright Integration Tests

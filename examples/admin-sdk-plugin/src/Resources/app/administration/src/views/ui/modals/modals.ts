@@ -1,5 +1,5 @@
 import { defineComponent } from 'vue'
-import { ui } from '@shopware-ag/meteor-admin-sdk';
+import { ui } from '@cicada-ag/meteor-admin-sdk';
 
 // make background color white
 document.body.style.backgroundColor = 'white';

@@ -1,5 +1,5 @@
 ---
-"@shopware-ag/meteor-component-library": patch
+"@cicada-ag/meteor-component-library": patch
 ---
 
 Update focus style of inheritance toggle in card

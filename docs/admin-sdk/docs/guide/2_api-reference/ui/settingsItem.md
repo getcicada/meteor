@@ -31,7 +31,7 @@ In case that doesn't work take a look at the list [here](https://github.com/shop
 #### Example
 ![Settings item example](./assets/add-settings-item-example.png)
 ```ts
-import { location, ui } from '@shopware-ag/meteor-admin-sdk';
+import { location, ui } from '@cicada-ag/meteor-admin-sdk';
 
 // General commands
 if (location.is(location.MAIN_HIDDEN)) {

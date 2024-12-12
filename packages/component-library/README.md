@@ -16,20 +16,20 @@ You need a working **Vue 3 application** with the **i18n plugin** for the transl
 Add this package to your project:
 
 ```
-npm i @shopware-ag/meteor-component-library
+npm i @cicada-ag/meteor-component-library
 ```
 
 Import the `style.css` for general styling like fonts, etc. in the root file of your application or in you root styling file.
 
 ```js
-import "@shopware-ag/meteor-component-library/dist/style.css";
+import "@cicada-ag/meteor-component-library/dist/style.css";
 ```
 
 Each component works independently and can be imported directly from the root like this:
 
 ```html
 <script>
-  import { MtButton } from "@shopware-ag/meteor-component-library";
+  import { MtButton } from "@cicada-ag/meteor-component-library";
 
   export default {
     components: {

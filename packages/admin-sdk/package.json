@@ -1,10 +1,9 @@
 {
-  "name": "@shopware-ag/meteor-admin-sdk",
+  "name": "@cicada-ag/meteor-admin-sdk",
   "version": "5.6.0",
-  "description": "The Meteor SDK for the Shopware Administration.",
+  "description": "The Meteor SDK for the Cicada Administration.",
   "keywords": [
     "iframe",
-    "shopware",
     "admin",
     "bridge",
     "app",
@@ -12,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:shopware/meteor.git"
+    "url": "git+ssh://git@github.com:getcicada/meteor.git"
   },
   "license": "MIT",
   "exports": {
@@ -88,7 +87,7 @@
   "dependencies": {
     "localforage": "^1.10.0",
     "lodash": "^4.17.21",
-    "@shopware-ag/meteor-component-library": "workspace:*"
+    "@cicada-ag/meteor-component-library": "workspace:*"
   },
   "devDependencies": {
     "@playwright/test": "^1.45.0",

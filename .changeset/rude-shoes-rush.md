@@ -1,5 +1,5 @@
 ---
-"@shopware-ag/meteor-component-library": patch
+"@cicada-ag/meteor-component-library": patch
 ---
 
 Improve accessibility of mt-field-error

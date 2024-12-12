@@ -30,7 +30,7 @@ jobs:
         run: pnpm install --frozen-lockfile --prefer-offline
 
       - name: Update tokens
-        run: pnpm --filter @shopware-ag/meteor-tokens run start
+        run: pnpm --filter @cicada-ag/meteor-tokens run start
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6

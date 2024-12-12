@@ -1,5 +1,5 @@
 ---
-"@shopware-ag/meteor-component-library": patch
+"@cicada-ag/meteor-component-library": patch
 ---
 
 Increase color contrast in mt-avatar component

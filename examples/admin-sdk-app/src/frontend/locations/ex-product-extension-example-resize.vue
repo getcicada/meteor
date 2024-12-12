@@ -29,8 +29,8 @@
 
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import { location } from "@shopware-ag/meteor-admin-sdk";
-import { SwButton, SwNumberField } from '@shopware-ag/meteor-component-library';
+import { location } from "@cicada-ag/meteor-admin-sdk";
+import { SwButton, SwNumberField } from '@cicada-ag/meteor-component-library';
 
 const heightInput = ref(123);
 const height = ref(400);

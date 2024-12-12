@@ -6,7 +6,7 @@
     {
       "label": "Run storybook",
       "type": "shell",
-      "command": "pnpm --filter @shopware-ag/meteor-component-library run storybook",
+      "command": "pnpm --filter @cicada-ag/meteor-component-library run storybook",
       "group": "build"
     }
   ]

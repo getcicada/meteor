@@ -1,5 +1,5 @@
 ---
-"@shopware-ag/meteor-component-library": major
+"@cicada-ag/meteor-component-library": major
 ---
 
 Making vue a peer dependency

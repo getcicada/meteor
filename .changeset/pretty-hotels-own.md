@@ -1,5 +1,5 @@
 ---
-"@shopware-ag/meteor-component-library": patch
+"@cicada-ag/meteor-component-library": patch
 ---
 
 Add landmarks to card component for screen readers

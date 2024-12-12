@@ -230,10 +230,10 @@ const labelClasses = computed(() => {
 
   &.mt-label--info:not(&--appearance-badged) {
     @include mt-label-variant(
-      $color-shopware-brand-50,
-      $color-shopware-brand-500,
-      $color-shopware-brand-500,
-      $color-shopware-brand-100
+      $color-cicada-brand-50,
+      $color-cicada-brand-500,
+      $color-cicada-brand-500,
+      $color-cicada-brand-100
     );
   }
 
@@ -275,10 +275,10 @@ const labelClasses = computed(() => {
 
   &.mt-label--primary:not(&--appearance-badged) {
     @include mt-label-variant(
-      $color-shopware-brand-500,
-      $color-shopware-brand-50,
-      $color-shopware-brand-500,
-      $color-shopware-brand-100
+      $color-cicada-brand-500,
+      $color-cicada-brand-50,
+      $color-cicada-brand-500,
+      $color-cicada-brand-100
     );
   }
 }

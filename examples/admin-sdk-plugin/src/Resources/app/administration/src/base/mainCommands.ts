@@ -1,4 +1,4 @@
-import { notification, ui, context } from '@shopware-ag/meteor-admin-sdk';
+import { notification, ui, context } from '@cicada-ag/meteor-admin-sdk';
 
 // location/index
 ui.componentSection.add({
