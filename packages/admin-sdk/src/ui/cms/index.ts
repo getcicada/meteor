@@ -23,7 +23,7 @@ export type cmsRegisterElement = {
 
     /**
      * Object containing the defaultConfig; same like in plugin development.
-     * @url https://developer.shopware.com/docs/guides/plugins/plugins/content/cms/add-cms-element
+     * @url https://developer.cicada.com/docs/guides/plugins/plugins/content/cms/add-cms-element
      */
     defaultConfig: {
         [key: string]: unknown,
@@ -34,7 +34,7 @@ export type cmsRegisterBlock = {
     responseType: void,
 
     /**
-     * A unique technical name for your block. We recommend to use a shorthand prefix for your company, e.g. "Swag" for shopware AG.
+     * A unique technical name for your block. We recommend to use a shorthand prefix for your company, e.g. "Swag" for cicada AG.
      */
     name: string,
 

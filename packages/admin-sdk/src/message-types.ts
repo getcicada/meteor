@@ -41,7 +41,7 @@ import type {
 import type { iapCheckout } from './iap';
 
 /**
- * Contains all shopware send types.
+ * Contains all cicada send types.
  * @internal
  */
 export interface ShopwareMessageTypes {

@@ -185,27 +185,27 @@ export function send<MESSAGE_TYPE extends keyof ShopwareMessageTypes>(
         return;
       }
 
-      let shopwareResponseData;
+      let cicadaResponseData;
       // Try to parse the json response
       try {
-        shopwareResponseData = JSON.parse(event.data) as unknown;
+        cicadaResponseData = JSON.parse(event.data) as unknown;
       } catch {
         // Fail silently when message is not a valid json file
         return;
       }
 
       // Check if messageData is valid
-      if (!isMessageResponseData<MESSAGE_TYPE>(shopwareResponseData)) {
+      if (!isMessageResponseData<MESSAGE_TYPE>(cicadaResponseData)) {
         return;
       }
 
       // Only execute if response value exists
-      if (!shopwareResponseData.hasOwnProperty('_response')) {
+      if (!cicadaResponseData.hasOwnProperty('_response')) {
         return;
       }
 
       // Deserialize methods etc. so that they are callable in JS
-      const deserializedResponseData = deserialize(shopwareResponseData, event) as ShopwareMessageResponseData<MESSAGE_TYPE>;
+      const deserializedResponseData = deserialize(cicadaResponseData, event) as ShopwareMessageResponseData<MESSAGE_TYPE>;
 
       // Remove event so that in only execute once
       window.removeEventListener('message', callbackHandler);
@@ -287,23 +287,23 @@ export function handle<MESSAGE_TYPE extends keyof ShopwareMessageTypes>
       return;
     }
 
-    let shopwareMessageData;
+    let cicadaMessageData;
 
     // Try to parse the json file
     try {
-      shopwareMessageData = JSON.parse(event.data) as unknown;
+      cicadaMessageData = JSON.parse(event.data) as unknown;
     } catch {
       // Fail silently when message is not a valid json file
       return;
     }
 
     // Check if messageData is valid
-    if (!isMessageData<MESSAGE_TYPE>(shopwareMessageData)) {
+    if (!isMessageData<MESSAGE_TYPE>(cicadaMessageData)) {
       return;
     }
 
     // Deserialize methods etc. so that they are callable in JS
-    const deserializedMessageData = deserialize(shopwareMessageData, event) as ShopwareMessageSendData<MESSAGE_TYPE>;
+    const deserializedMessageData = deserialize(cicadaMessageData, event) as ShopwareMessageSendData<MESSAGE_TYPE>;
 
     // eslint-disable-next-line @typescript-eslint/explicit-function-return-type
     const responseValue = await Promise.resolve((() => {
@@ -329,7 +329,7 @@ export function handle<MESSAGE_TYPE extends keyof ShopwareMessageTypes>
        * in Entity and Entity Collection
        */
       const validationErrors = validate({
-        serializedData: shopwareMessageData,
+        serializedData: cicadaMessageData,
         origin: event.origin,
         type: type,
         privilegesToCheck: ['create', 'delete', 'update', 'read'],
@@ -627,18 +627,18 @@ window._swsdk = {
  * Check if the data is valid message data
  */
 function isMessageData<MESSAGE_TYPE extends keyof ShopwareMessageTypes>(eventData: unknown): eventData is ShopwareMessageSendData<MESSAGE_TYPE> {
-  const shopwareMessageData = eventData as ShopwareMessageSendData<MESSAGE_TYPE>;
+  const cicadaMessageData = eventData as ShopwareMessageSendData<MESSAGE_TYPE>;
 
-  return !!shopwareMessageData._type
-         && !!shopwareMessageData._data
-         && !!shopwareMessageData._callbackId;
+  return !!cicadaMessageData._type
+         && !!cicadaMessageData._data
+         && !!cicadaMessageData._callbackId;
 }
 
 // ShopwareMessageTypes[MESSAGE_TYPE]['responseType']
 function isMessageResponseData<MESSAGE_TYPE extends keyof ShopwareMessageTypes>(eventData: unknown): eventData is ShopwareMessageResponseData<MESSAGE_TYPE> {
-  const shopwareMessageData = eventData as ShopwareMessageResponseData<MESSAGE_TYPE>;
+  const cicadaMessageData = eventData as ShopwareMessageResponseData<MESSAGE_TYPE>;
 
-  return !!shopwareMessageData._type
-         && !!shopwareMessageData.hasOwnProperty('_response')
-         && !!shopwareMessageData._callbackId;
+  return !!cicadaMessageData._type
+         && !!cicadaMessageData.hasOwnProperty('_response')
+         && !!cicadaMessageData._callbackId;
 }
